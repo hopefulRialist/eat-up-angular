@@ -1,21 +1,18 @@
-.trend-newest{
-    height:100%;
+.mat-tab-header {
+    z-index: 9999;
+    position: sticky !important;
+    top: 52px;
+    background-color: white !important;
 }
 
 
-.mat-tab-label {
-    min-width: 50% !important;
-    padding: 5px;
-    background-color: transparent;
-    color: red;
-    font-weight: 700;
-}
-    
+
+
 /* Styles for the active tab label */
 .mat-tab-label {
     min-width: 50% !important;
     padding: 5px;
-    background-color: transparent;
+    background-color: white;
     color: red;
     font-weight: 700;
 }
@@ -27,4 +24,3 @@
     color:black;
     font-weight: 700;
 }
-
